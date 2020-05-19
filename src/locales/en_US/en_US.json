@@ -403,6 +403,8 @@
     },
     "national_identity_card": "Identity Card",
     "passport": "Passport",
+    "work_permit": "Work Permit",
+    "residence_permit": "Biometric Residence Permit",
     "proof_of_address": {
         "guidance": {
             "continue": "Continue",

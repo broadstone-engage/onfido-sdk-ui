@@ -12,8 +12,8 @@
       "passport_hint": "Face photo page",
       "driving_licence_hint": "Front and back",
       "national_identity_card_hint": "Front and back",
-      "work_permit_hint": "Frente y reverso",
-      "residence_permit_hint": "Frente y reverso"
+      "work_permit_hint": "Front and back",
+      "residence_permit_hint": "Front and back"
      
     },
     "proof_of_address": {
