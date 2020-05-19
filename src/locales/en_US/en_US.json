@@ -262,7 +262,9 @@
             "hint": "Select the type of document you would like to upload",
             "national_identity_card_hint": "Front and back",
             "passport_hint": "Face photo page",
-            "title": "Verify your identity"
+            "title": "Verify your identity",
+            "work_permit_hint": "Front and back",
+            "residence_permit_hint": "Front and back"
         },
         "proof_of_address": {
             "benefits_letter_hint": "Government authorised household benefits eg. Jobseeker allowance, Housing benefit, Tax credits",

@@ -262,7 +262,9 @@
             "hint": "Wählen Sie die Art des Dokuments, das Sie hochladen möchten.",
             "national_identity_card_hint": "Vorder- und Rückseite",
             "passport_hint": "Seite mit Foto",
-            "title": "Identität überprüfen"
+            "title": "Identität überprüfen",
+            "work_permit_hint": "Vorder- und Rückseite",
+            "residence_permit_hint": "Vorder- und Rückseite"
         },
         "proof_of_address": {
             "benefits_letter_hint": "Government authorised household benefits eg. Jobseeker allowance, Housing benefit, Tax credits",

@@ -262,7 +262,9 @@
             "hint": "Seleccione el tipo de documento que desea subir",
             "national_identity_card_hint": "Frente y reverso",
             "passport_hint": "Página del pasaporte con su foto",
-            "title": "Verifique su identidad"
+            "title": "Verifique su identidad",
+            "work_permit_hint": "Frente y reverso",
+            "residence_permit_hint": "Frente y reverso"
         },
         "proof_of_address": {
             "benefits_letter_hint": "Government authorised household benefits eg. Jobseeker allowance, Housing benefit, Tax credits",

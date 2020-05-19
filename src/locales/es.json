@@ -11,7 +11,9 @@
       "hint": "Seleccione el tipo de documento que desea subir",
       "passport_hint": "Página del pasaporte con su foto",
       "driving_licence_hint": "Frente y reverso",
-      "national_identity_card_hint": "Frente y reverso"
+      "national_identity_card_hint": "Frente y reverso",
+      "work_permit_hint": "Frente y reverso",
+      "residence_permit_hint": "Frente y reverso"
     }
   },
   "capture": {
