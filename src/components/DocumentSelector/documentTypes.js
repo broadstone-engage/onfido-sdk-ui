@@ -14,8 +14,11 @@ export type DocumentOptionsType = {
 }
 
 export const idDocumentOptions = {
-  work_permit {
+  work_permit: {
     hint: 'work_permit_hint',
+  },
+  residence_permit: {
+    hint: 'residence_permit',
   },
   passport: {
     hint: 'passport_hint',
