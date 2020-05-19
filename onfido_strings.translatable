@@ -50,6 +50,30 @@
         "webcam": "$capture.national_identity_card.back.webcam$"
       }
     },
+    "work_permit": {
+      "front": {
+        "title": "$capture.work_permit.front.title$",
+        "instructions": "$capture.work_permit.front.instructions$",
+        "webcam": "$capture.work_permit.front.webcam$"
+      },
+      "back": {
+        "title": "$capture.work_permit.back.title$",
+        "instructions": "$capture.work_permit.back.instructions$",
+        "webcam": "$capture.work_permit.back.webcam$"
+      }
+    },
+    "residence_permit": {
+      "front": {
+        "title": "$capture.residence_permit.front.title$",
+        "instructions": "$capture.residence_permit.front.instructions$",
+        "webcam": "$capture.residence_permit.front.webcam$"
+      },
+      "back": {
+        "title": "$capture.residence_permit.back.title$",
+        "instructions": "$capture.residence_permit.back.instructions$",
+        "webcam": "$capture.residence_permit.back.webcam$"
+      }
+    },
     "passport": {
       "front": {
         "title": "$capture.passport.front.title$",

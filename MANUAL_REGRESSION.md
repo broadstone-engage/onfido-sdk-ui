@@ -300,7 +300,9 @@ Outcome:
         options: {
           documentTypes: {
             passport: true,
-            driving_licence: true
+            driving_licence: true,
+            work_permit: true,
+            residence_permit: true
           }
         }
       },
