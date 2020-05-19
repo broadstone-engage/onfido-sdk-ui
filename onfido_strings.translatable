@@ -11,7 +11,9 @@
       "hint": "$document_selector.identity.hint_old$",
       "passport_hint": "$document_selector.identity.passport_hint$",
       "driving_licence_hint": "$document_selector.identity.driving_license_hint$",
-      "national_identity_card_hint": "$document_selector.identity.national_identity_card_hint$"
+      "national_identity_card_hint": "$document_selector.identity.national_identity_card_hint$",
+      "work_permit_hint": "$document_selector.identity.work_permit_hint$",
+      "residence_permit_hint": "$document_selector.identity.residence_permit_hint$"
     },
     "proof_of_address": {
       "title": "$document_selector.proof_of_address.title_old$",
