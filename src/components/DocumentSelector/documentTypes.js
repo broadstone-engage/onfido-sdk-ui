@@ -18,7 +18,7 @@ export const idDocumentOptions = {
     hint: 'work_permit_hint',
   },
   residence_permit: {
-    hint: 'residence_permit',
+    hint: 'residence_permit_hint',
   },
   passport: {
     hint: 'passport_hint',
