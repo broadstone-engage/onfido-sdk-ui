@@ -81,7 +81,7 @@ const getRequiredSelfieSteps = (deviceHasCameraSupport) => {
 }
 
 const createIdentityDocumentComponents = (documentType, hasPreselectedDocument) => {
-  const double_sided_docs = ['driving_licence', 'national_identity_card']
+  const double_sided_docs = ['driving_licence', 'national_identity_card', 'work_permit', 'residence_permit']
   const frontCaptureComponents = [FrontDocumentCapture, DocumentFrontConfirm]
   const withSelectScreen = [SelectIdentityDocument, ...frontCaptureComponents]
   const frontDocumentFlow = hasPreselectedDocument ? frontCaptureComponents : withSelectScreen

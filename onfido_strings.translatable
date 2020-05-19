@@ -398,6 +398,8 @@
   "passport": "$passport$",
   "driving_licence": "$driving_licence$",
   "national_identity_card": "$identity_card$",
+  "work_permit": "$work_permit$",
+  "residence_permit": "$residence_permit$",
   "short_passport": "$short_passport$",
   "short_driving_licence": "$short_driving_licence$",
   "short_national_identity_card": "$short_national_identity_card$",
