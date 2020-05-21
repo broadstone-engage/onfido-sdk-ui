@@ -51,6 +51,18 @@
         "webcam": "Position the back of card in the frame (it will be automatically detected)"
       }
     },
+    "residence_permit": {
+      "front": {
+        "title": "Submit Residence Permit (front)",
+        "instructions": "Upload front of card from your computer",
+        "webcam": "Position the front of card in the frame (it will be automatically detected)"
+      },
+      "back": {
+        "title": "Submit Residence Permit (back)",
+        "instructions": "Upload back of card from your computer",
+        "webcam": "Position the back of card in the frame (it will be automatically detected)"
+      }
+    },
     "passport": {
       "front": {
         "title": "Submit passport photo page",
@@ -148,6 +160,9 @@
       "message": "Make sure your license details are clear to read, with no blur or glare"
     },
     "national_identity_card": {
+      "message": "Make sure your card details are clear to read, with no blur or glare"
+    },
+    "residence_permit": {
       "message": "Make sure your card details are clear to read, with no blur or glare"
     },
     "passport": {

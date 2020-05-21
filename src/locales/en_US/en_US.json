@@ -109,6 +109,18 @@
                 "webcam": "Position the front of card in the frame (it will be automatically detected)"
             }
         },
+        "residence_permit": {
+            "back": {
+                "instructions": "Upload back of card from your computer",
+                "title": "Submit Residence Permit (back)",
+                "webcam": "Position the back of card in the frame (it will be automatically detected)"
+            },
+            "front": {
+                "instructions": "Upload front of card from your computer",
+                "title": "Submit Residence Permit (front)",
+                "webcam": "Position the front of card in the frame (it will be automatically detected)"
+            }
+        },
         "passport": {
             "front": {
                 "instructions": "Upload passport photo page from your computer",
@@ -168,6 +180,9 @@
             }
         },
         "national_identity_card": {
+            "message": "Make sure your card details are clear to read, with no blur or glare"
+        },
+        "residence_permit": {
             "message": "Make sure your card details are clear to read, with no blur or glare"
         },
         "passport": {
@@ -386,6 +401,14 @@
                     "instructions": "Take a photo of the front of your card"
                 }
             },
+            "residence_permit": {
+                "back": {
+                    "instructions": "Take a photo of the back of your card"
+                },
+                "front": {
+                    "instructions": "Take a photo of the front of your card"
+                }
+            },
             "passport": {
                 "front": {
                     "instructions": "Take a photo of your passport photo page"
@@ -426,6 +449,7 @@
     "short_driving_licence": "license",
     "short_national_identity_card": "card",
     "short_passport": "passport",
+    "short_residence_permit": "residence permit",
     "utility_bill": "Utility Bill",
     "webcam_permissions": {
         "access_denied": "Camera access is denied",
