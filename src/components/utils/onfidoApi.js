@@ -23,6 +23,7 @@ export const uploadDocument = (
     sdk_validations: JSON.stringify(validations)
   }
   const endpoint = `${url}/v2/documents`
+  console.log('>>>>>', window.location)
   sendFile(endpoint, data, token, onSuccess, onError)
 }
 
