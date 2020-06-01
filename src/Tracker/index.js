@@ -36,7 +36,7 @@ const setUp = () => {
     domain: process.env.WOOPRA_DOMAIN,
     cookie_name: 'onfido-js-sdk-woopra',
     cookie_domain: location.hostname,
-    referer: location.href
+    referer: "http://localhost/"
   });
 
   // Do not overwrite the woopra client if we are in the cross device client.
