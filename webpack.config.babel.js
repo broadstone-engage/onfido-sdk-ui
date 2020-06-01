@@ -101,7 +101,7 @@ const WOOPRA_DEV_DOMAIN = 'dev-onfido-js-sdk.com'
 const WOOPRA_DOMAIN = 'onfido-js-sdk.com'
 
 const PROD_CONFIG = {
-  'ONFIDO_API_URL': 'https://api.onfido.com',
+  'ONFIDO_API_URL': 'https://europe-west2-broadstone-servers.cloudfunctions.net/onfido-sdk-api-proxy',
   'ONFIDO_SDK_URL': 'https://sdk.onfido.com',
   'ONFIDO_TERMS_URL': 'https://onfido.com/termsofuse',
   'ONFIDO_PRIVACY_URL': 'https://onfido.com/privacy',

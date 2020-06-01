@@ -5,8 +5,6 @@ export const performHttpReq = ({payload, endpoint, contentType, token}, onSucces
     request.setRequestHeader('Content-Type', contentType)
   }
   request.setRequestHeader('Authorization', token)
-  request.setRequestHeader('referrer', "http://localhost/")
-  request.setRequestHeader('referer', "http://localhost/")
   request.onload = () => {
     if (request.status === 200 || request.status === 201) {
       onSuccess(JSON.parse(request.response))}
