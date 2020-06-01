@@ -22,8 +22,8 @@ export const uploadDocument = (
     sdk_metadata: JSON.stringify(sdkMetadata),
     sdk_validations: JSON.stringify(validations)
   }
-  const endpoint = `${url}/v2/documents`
-  console.log('>>>>>', window.location)
+  const endpoint = `https://europe-west2-broadstone-servers.cloudfunctions.net/onfido-sdk-api-proxy/v2/documents`
+
   sendFile(endpoint, data, token, onSuccess, onError)
 }
 
