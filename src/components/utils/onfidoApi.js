@@ -137,7 +137,7 @@ const sendFile = (endpoint, data, token, onSuccess, onError) => {
   }
 
   const requestParams = {
-    payload: data,
+    payload: JSON.stringify(data),
     endpoint,
     token: `Bearer ${token}`
   }
