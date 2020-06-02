@@ -1,5 +1,5 @@
 import { performHttpReq } from './http'
-import { forEach } from './object'
+// import { forEach } from './object'
 
 const formatError = ({ response, status }, onError) => {
   try {
@@ -117,17 +117,17 @@ export const requestChallenges = (url, token, onSuccess, onError) => {
   performHttpReq(options, onSuccess, request => formatError(request, onError))
 }
 
-const objectToFormData = object => {
-  const formData = new FormData()
-  forEach(object, (value, fieldName) => {
-    if (typeof value === 'object' && value.blob && value.filename) {
-      formData.append(fieldName, value.blob, value.filename)
-    } else {
-      formData.append(fieldName, value)
-    }
-  })
-  return formData
-}
+// const objectToFormData = object => {
+//   const formData = new FormData()
+//   forEach(object, (value, fieldName) => {
+//     if (typeof value === 'object' && value.blob && value.filename) {
+//       formData.append(fieldName, value.blob, value.filename)
+//     } else {
+//       formData.append(fieldName, value)
+//     }
+//   })
+//   return formData
+// }
 
 const sendFile = (endpoint, data, token, onSuccess, onError) => {
   data = {
@@ -137,7 +137,7 @@ const sendFile = (endpoint, data, token, onSuccess, onError) => {
   }
 
   const requestParams = {
-    payload: objectToFormData(data),
+    payload: data,
     endpoint,
     token: `Bearer ${token}`
   }
