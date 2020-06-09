@@ -22,7 +22,7 @@ export const uploadDocument = (
     sdk_metadata: JSON.stringify(sdkMetadata),
     sdk_validations: JSON.stringify(validations)
   }
-  const endpoint = `https://jakesixsmith.eu.ngrok.io/api/v1/worker/onfido/document`
+  const endpoint = `https://develop-dot-broadstone-servers.appspot.com/api/v1/worker/onfido/document`
 
   sendFile(endpoint, data, token, onSuccess, onError)
   

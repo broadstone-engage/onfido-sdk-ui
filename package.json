@@ -138,6 +138,7 @@
     "yn": "^3.0.0"
   },
   "dependencies": {
+    "@babel/compat-data": "^7.10.1",
     "@babel/runtime-corejs3": "^7.8.7",
     "@sentry/browser": "^5.14.2",
     "blueimp-load-image": "~2.12.2",
