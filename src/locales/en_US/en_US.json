@@ -455,7 +455,7 @@
         "access_denied": "Camera access is denied",
         "allow": "Allow",
         "allow_access": "Allow camera access",
-        "click_allow": "We cannot verify you without using your camera",
+        "click_allow": "Enable your camera so you can take a picture for us to verify your ID",
         "enable_webcam": "Enable camera",
         "enable_webcam_for_selfie": "When prompted, you must enable camera access to continue",
         "follow_steps": "Follow these steps to recover camera access:",
