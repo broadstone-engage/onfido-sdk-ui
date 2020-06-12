@@ -457,7 +457,7 @@
         "allow_access": "Allow camera access",
         "click_allow": "Enable your camera so you can take a picture for us to verify your ID",
         "enable_webcam": "Enable camera",
-        "enable_webcam_for_selfie": "When prompted, you must enable camera access to continue",
+        "enable_webcam_for_selfie": "Enable your camera so you can take a picture for us to verify your ID",
         "follow_steps": "Follow these steps to recover camera access:",
         "grant_access": "Grant access to your camera from your browser settings",
         "if_denied": "If you deny camera access, you won't be able to take pictures and complete verification process.",

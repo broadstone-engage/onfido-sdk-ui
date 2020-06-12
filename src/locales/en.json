@@ -280,7 +280,7 @@
   },
   "webcam_permissions": {
     "allow_access": "Allow camera access",
-    "enable_webcam_for_selfie": "When prompted, you must enable camera access to continue",
+    "enable_webcam_for_selfie": "Enable your camera so you can take a picture for us to verify your ID",
     "click_allow": "Enable your camera so you can take a picture for us to verify your ID",
     "allow": "Allow",
     "why": "Why do I need to do this?",
