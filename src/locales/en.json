@@ -153,7 +153,7 @@
   },
   "confirm": {
     "document": {
-      "title": "Check readability",
+      "title": "Is the photo clear?",
       "alt": "Photo of your document"
     },
     "driving_licence": {

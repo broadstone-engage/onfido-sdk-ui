@@ -160,7 +160,7 @@
         },
         "document": {
             "alt": "Photo of your document",
-            "title": "Check readability"
+            "title": "Is the photo clear?"
         },
         "driving_licence": {
             "message": "Make sure your license details are clear to read, with no blur or glare"
